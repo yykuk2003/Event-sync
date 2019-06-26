@@ -74,6 +74,7 @@ class AddEvent extends Component {
                 onChange={this.handleChange}
               />
             </div>
+            <button type="submit" className="btn btn-primary">Cancel Event</button>
 
             <div className="form-group">
               <label>Event Date:</label>
