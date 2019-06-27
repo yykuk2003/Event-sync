@@ -89,8 +89,7 @@ class AddEvent extends Component {
             </div>
 
             <button type="submit" className="btn btn-primary">Add Event</button>
-            <button type="delete" className="btn btn-dark">delete</button>
-            <button type="delete" className="btn btn-dark">edit</button>
+            <button>checking</button>
           </form>
         </div>
       </div>
