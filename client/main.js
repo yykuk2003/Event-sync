@@ -35,3 +35,6 @@ Meteor.startup(() => {
   ReactDOM.render(<App />, document.getElementById('app'));
 });
 
+
+check if anything changed
+
