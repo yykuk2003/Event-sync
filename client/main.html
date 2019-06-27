@@ -1,3 +1,4 @@
+
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <title>Event Sync</title>
@@ -5,3 +6,10 @@
 <body>
   <div id="app"></div>
 </body>
+
+
+<template name="events">
+  <div>Hello</div>
+  <div>{{> React component=AddEvent }}</div>
+  <div>{{> React component=ListEvents events=events onClick=onClick }}</div>
+</template>
